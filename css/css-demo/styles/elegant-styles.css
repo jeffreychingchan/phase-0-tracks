@@ -1,9 +1,12 @@
 /* You can use an HTML tag as a selector ... */
 
+/* background img to the website */
+
 html {
   background-image: url("../images/wov.png");
 }
 
+/* template of the webpage*/
 body {
   font-family: "Georgia", serif;
   padding: 20px 30px;
@@ -14,12 +17,13 @@ body {
   font-size: 1.2em;
 }
 
+/* square bullet point */
 ul {
   list-style-type: square;
 }
 
 /* You can select multiple tags at once! */
-
+/* different font for headers */
 h1, h2, h3, h4, h5, h6 {
   font-family: "Helvetica", sans-serif;
 }
