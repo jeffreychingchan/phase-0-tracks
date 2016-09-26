@@ -1,0 +1,34 @@
+#contact-info {
+	font-size: .8em;
+}
+
+.job {
+	background-color: #e9e5dc;
+	border-radius: 35px;
+	padding: 5px;
+	margin: 5px 0;
+}
+
+.accomplishments {
+	font-size: .8em;
+
+}
+
+a:link {
+    color: #ff0000;
+}
+
+a:visited {
+    color: #80ff00;
+}
+
+a:hover {
+    color: #ff0000;
+}
+
+
+#volunteer-experience .volunteer-gig ul li {
+
+	background-color: #bf00ff;
+	width: 70%;
+}
