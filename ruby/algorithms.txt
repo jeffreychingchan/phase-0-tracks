@@ -1,0 +1,32 @@
+Release 0: Equip your New robot
+
+Enter elevator
+Search for desired floor number
+	Until found desired floor number on panel
+		-keep searching floor number 
+	If found desired floor number
+		-Press desired floor number button
+		-Wait until the elevator stop moving and door to open
+		-Exit elevator 
+
+
+---------------------------------------------
+
+Release 1: Brushing teeth
+
+Enter bathroom
+Turn on light
+Search for toothbrush until it is found
+if toothbrush is found
+	search toothpaste until it is found
+if toothpaste is found
+	unscrew cap on toothpaste
+	apply toothpaste onto toothbrush
+	screw cap back on toothpaste
+apply toothbrush with toothpaste into mouth
+brush every teeth in vertical and horizontal
+when everyt teeth is cleaned
+	insert water in mouth
+	rinse mouth with water
+	extract water from mouth into sink
+
