@@ -1,0 +1,74 @@
+Review and Reflect for week 5 
+
+Data Structures
+1. Why are data structures useful in programming?
+
+	Programmers needa a way to store data, so data can be used for the program. 
+
+----------------------------------------------------
+
+Arrays
+2. Define "array" and describe the characteristics of an array.
+
+	Array are collections of data or object in indexed. A list of data. 
+
+	example: ary = [1, "five", 5.7]
+
+----------------------------------------------------
+
+3. Give two original examples of data sets that an array might be well-suited for.
+
+	array can store strings and integers. 
+
+	give me a list of your favorite color? 
+		blue, yellow, orange
+
+	give me a list of your lottery number?
+		5, 6, 7, 22, 23, 58
+
+----------------------------------------------------
+
+Hashes
+4. Define "hash" and describe the characteristics of a hash.
+
+	Hash is a collection of key and value pairs of data. 
+
+	
+
+
+----------------------------------------------------
+
+5. Give two original examples of data sets that a hash might be well-suited for.
+
+	Hash can store strings and integers as well. Its good for questionnaire data. 
+
+	example:  "employee_name" => "Bob Doe"
+				age: 52
+
+
+----------------------------------------------------
+
+Iteration
+6. Why is iteration useful?
+	
+	Iteration returns all the value of array or hash. 
+
+----------------------------------------------------
+
+7. Give an example of a real-life task that would require iteration if you wrote an algorithm for it.
+
+	list all the elements inside the array data. Pinpoint a specific that i want to display. 
+	All the elements of integers inside an array needs to be added 1. 
+
+----------------------------------------------------
+
+Blocks
+8. What is a block?
+
+	A block holds a bunch of code inside braces. 
+
+----------------------------------------------------
+
+9. What is a block parameter, and where does its value come from?
+
+	Programmer can place variable as parameter. The variable can be used to lookup the index in array. 
