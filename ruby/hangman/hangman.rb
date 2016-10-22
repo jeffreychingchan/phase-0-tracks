@@ -64,7 +64,7 @@ end
 
 
 # DIRVER CODE CODE
-=begin
+
 puts "Welcome to the Hangman Game Program."
 puts "Please input the secret word for your friend to guess."
 secret_word = gets.chomp 
@@ -78,4 +78,3 @@ until hangman.game_over
     guessed_letter = gets.chomp
     hangman.check_for_letter(guessed_letter)
 end
-=end 
