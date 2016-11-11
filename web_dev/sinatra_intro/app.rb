@@ -59,3 +59,20 @@ get '/great_job' do
     "Good Job!"
   end 
 end 
+
+get '/add/:num1/:num2' do 
+  num1 = params[:num1].to_i
+  num2 = params[:num2].to_i 
+  added = (num1+num2).to_s
+  "#{num1} + #{num2} = #{added}."
+end 
+
+get "/students_by_campus/:campus" do
+students = db.execute("SELECT * FROM students WHERE campus=?", [params[:campus]])
+response = "CAMPUS: #{params[:campus]}<br><br>"
+ students.each do |student|
+ response += "Name: #{student['name']}<br>"
+ response += "Age: #{student['age']}<br>"
+end
+response
+end 
